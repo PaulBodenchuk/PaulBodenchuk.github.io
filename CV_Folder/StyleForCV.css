@@ -1,0 +1,211 @@
+body {
+    background-color: #E9E9E9;
+}
+
+.wrapper {
+    width: 1000px;
+    margin: 20px auto;
+    font-family: Arial, serif;
+    background-color: #E9E9E9;
+}
+
+.rightCol{
+    float: right;
+    width: 30%;
+    background-color: #ffffff;
+    height: 700px;
+    border: 1px solid #aaa4aa
+}
+
+.contacts{
+    width: 68%;
+    border: 1px solid #aaa4aa;
+    position: relative;
+    background-color: #ffffff;
+    box-sizing: border-box;
+}
+
+.contacts > img{
+    float: left;
+    margin-right: 20px;
+}
+
+.info{
+    margin-left: 250px;
+    overflow: auto
+}
+
+#buttonLook{
+    width: 230px;
+    height: 40px;
+    background-color: #1a6eff;
+    color: white;
+    font-size: 14px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    -moz-border-radius:  5px; /* Firefox */
+    -webkit-border-radius:  5px; /* Safari 4 */
+    border-radius:  5px; /* IE 9, Safari 5, Chrome */
+}
+#buttonLook:hover{
+    background-color: #2059ff;
+}
+
+#buttonLook:focus {
+    outline: none;
+}
+
+.textHoverGrey:hover{
+    background-color: #878eee;
+}
+
+#Cont{
+    position: absolute;
+    right: 20px;
+    bottom: 47px;
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+#numCont{
+    text-align: right;
+    font-size: 20px;
+    margin-bottom: -15px;
+}
+
+#numCont + p{
+    margin-bottom: 0;
+}
+
+.greyText{
+    color: #b2b2b2;
+}
+
+td {
+    font-size: 16px;
+    width:  110px;
+}
+
+.clear{
+    clear: both;
+}
+
+td:first-child{
+    font-size: 12px;
+}
+
+.addCont{
+    border-top: 1px dashed #b2b2b2;
+    height: 40px;
+
+}
+
+h1,h3,h4,table{
+    margin: 0 0 10px 0 ;
+}
+
+h1,h3,h4{
+    float: left;
+    margin-top: 0;
+}
+
+.penImg{
+    margin-left: 5px;
+    margin-top: -0.1em;
+}
+
+#inLink{
+    float: left;
+    height: 100%;
+    margin-top: 0.6em;
+}
+#inLink a{
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+a:visited{
+    color: black;
+}
+
+#ConInf{
+    width: 230px;
+    background-color: #aaa4aa;
+    float: right;
+    height: 100%;
+}
+
+.addCont div p{
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 12px;
+}
+
+#Education, #Experience {
+    padding: 40px 0 20px 0;
+    width: 68%;
+    margin-top: 20px;
+    background-color: #ffffff;
+    border: 1px solid #aaa4aa;
+    box-sizing: border-box;
+}
+
+li{
+    margin: 10px 0;
+    list-style-type: none;
+}
+
+li p{
+    margin: 0;
+}
+
+h2 {
+    margin-top: 0;
+    margin-left: 30px;
+}
+
+#LAN_Service_Exp, #TPK_Exp{
+    margin-left: 30px;
+
+}
+
+#LAN_Service_Exp > p, #TPK_Exp > p{
+    margin: 0;
+}
+
+.work_duty{
+    -webkit-padding-start: 5px;
+    margin-bottom: 5px;
+    -webkit-margin-before: 0.2em;
+}
+
+.work_duty > li{
+    margin: 0;
+    font-size: 12px;
+}
+
+#LAN_Service_Exp > img, #TPK_Exp > img{
+    float: right;
+    margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/** Проблемы
+* При нажатии на кнопку не убирается рамка кнопки стр 55
+#buttonLook:focus {
+    border-color: #ffffff;
+}
+*
+*
+**/
